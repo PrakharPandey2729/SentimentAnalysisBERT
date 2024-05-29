@@ -26,11 +26,11 @@ The dataset consists of customer reviews with ratings. The ratings are categoriz
 
 ### Zero-Shot
 
-We used the 'bert base multilingual uncased sentiment' model, a variant of BERT specifically designed for sentiment analysis. It includes 12 transformer blocks, 768 hidden layers, and 12 attention heads.
+We used the `Bert base multilingual uncased sentiment` model, a variant of BERT specifically designed for sentiment analysis. It includes 12 transformer blocks, 768 hidden layers, and 12 attention heads.
 
 ### Fine-Tuning
 
-The model architecture includes an input layer, a pre-processing layer, a BERT encoder, a dropout layer for regularization, and an output layer with 5 units for classification. We used the Categorical Crossentropy loss function and the AdamW optimizer with a learning rate scheduler.
+The model architecture includes an input layer, a pre-processing layer, a BERT encoder, a dropout layer for regularization, and an output layer with 5 units for classification. We used the `Categorical Cross-Entropy` loss function and the AdamW optimizer with a learning rate scheduler.
 
 ## Results
 
@@ -40,5 +40,5 @@ The model achieved an accuracy of approximately 63.49% and a mean squared error 
 
 ### Fine-Tuning
 
-We tested varying initial learning rates and found that a learning rate of 5e-5 resulted in the highest testing accuracy of 0.844.
+We tested varying initial learning rates and found that a learning rate of `5e-5` resulted in the highest testing accuracy of `0.844`.
 
